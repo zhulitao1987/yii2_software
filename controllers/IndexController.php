@@ -16,6 +16,8 @@ class IndexController extends Controller {
     
 
     public function actionIndex() {
+        
+        
         $version = Yii::getVersion();
         $test = testHelper::test();
         $render_data = [
