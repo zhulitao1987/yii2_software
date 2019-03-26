@@ -22,8 +22,9 @@ class ActionController extends Controller {
     public function actionIndex() {
         $a = 1.00;
         $b = 1.00;
-        echo $a-$b;
+        echo $a - $b;
         echo 111111;
+        echo bcdiv($a, $b, 2);
     }
 
     public function actionParams($first, $second) {
