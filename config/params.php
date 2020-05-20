@@ -2,5 +2,5 @@
 
 return [
     'adminEmail' => 'admin@example.com',
-    'hostUrl' => 'http://yii2.learn.com'
+    'hostUrl' => 'http://yii2.web.com'
 ];
